@@ -20,8 +20,10 @@ public class Main {
         int B = 7;
         System.out.println (" Значение a было: " + A);
         System.out.println (" Значение b было: " + B);
-        A = A * B / A;
-        B = A - 2;
+        A = A + B;
+        B = -B;
+        B = A + B;
+        A = A - B;
         System.out.println (" Значение a стало: " + A);
         System.out.println (" Значение b стало: " + B);
 
